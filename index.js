@@ -3,7 +3,7 @@ const http = require('http');
 const PORT = process.env.PORT || 3000;
 
 const server = http.createServer(async (req, res) => {
-  return res.end(`Hello world! v8`);
+  return res.end(`Hello streamers! This is showing that auto-deployments from Github are a success 🎉`);
 });
 
 server.listen(PORT, () => {
